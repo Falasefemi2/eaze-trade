@@ -21,6 +21,7 @@ import { CarouselItem, CarouselContent, CarouselPrevious, CarouselNext, Carousel
 import { JSX, SVGProps } from "react"
 import Image from "next/image"
 
+
 export function ImageSlider() {
   return (
     <div className="flex flex-col items-center justify-center w-full py-12 md:py-24 lg:py-32">
@@ -96,3 +97,4 @@ function ChevronRightIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElemen
     </svg>
   )
 }
+// npx v0 add xDbeuQNmXQb

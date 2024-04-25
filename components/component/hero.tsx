@@ -57,7 +57,7 @@ export function Hero() {
           alt="Hero"
           className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
           height="550"
-          src="/hero.jpg"
+          src="/market.jpg"
           width="550"
         />
       </div>
