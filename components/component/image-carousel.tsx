@@ -24,18 +24,8 @@ import Image from "next/image"
 export function ImageCarousel() {
   return (
     <div className="w-full max-w-5xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      <div className="flex items-center justify-between mb-6">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">Boosted Advert</h2>
-        <div className="flex items-center space-x-2">
-          <button className="p-2 rounded-full text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-950 dark:focus-visible:ring-gray-300">
-            <ChevronLeftIcon className="h-5 w-5" />
-            <span className="sr-only">Previous</span>
-          </button>
-          <button className="p-2 rounded-full text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-950 dark:focus-visible:ring-gray-300">
-            <ChevronRightIcon className="h-5 w-5" />
-            <span className="sr-only">Next</span>
-          </button>
-        </div>
+      <div className="flex items-center justify-center mb-9">
+        <h2 className="text-3xl md:text-[40px] font-bold tracking-tight text-gray-900 dark:text-gray-50">Boosted Advert</h2>
       </div>
       <div className="overflow-x-auto -mx-4 sm:-mx-6 lg:-mx-8 scrollbar-hide">
         <div className="inline-flex space-x-4">
@@ -54,7 +44,7 @@ export function ImageCarousel() {
               />
               <div className="p-4 sm:p-6">
                 <div className="flex items-center justify-between mb-2">
-                  <p className="text-lg font-bold text-gray-900 dark:text-gray-50">Stylish Sunglasses</p>
+                  <p className="text-sm md:text-lg font-bold text-gray-900 dark:text-gray-50">Stylish Sunglasses</p>
                   <p className="text-lg font-bold text-primary">$29.99</p>
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">UV protection, durable frame</p>
@@ -79,7 +69,7 @@ export function ImageCarousel() {
               />
               <div className="p-4 sm:p-6">
                 <div className="flex items-center justify-between mb-2">
-                  <p className="text-lg font-bold text-gray-900 dark:text-gray-50">Leather Crossbody Bag</p>
+                  <p className="text-sm md:text-lg font-bold text-gray-900 dark:text-gray-50">Leather Crossbody Bag</p>
                   <p className="text-lg font-bold text-primary">$49.99</p>
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Stylish and practical</p>
@@ -104,7 +94,7 @@ export function ImageCarousel() {
               />
               <div className="p-4 sm:p-6">
                 <div className="flex items-center justify-between mb-2">
-                  <p className="text-lg font-bold text-gray-900 dark:text-gray-50">Wireless Headphones</p>
+                  <p className="text-sm md:text-lg font-bold text-gray-900 dark:text-gray-50">Wireless Headphones</p>
                   <p className="text-lg font-bold text-primary">$79.99</p>
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">High-quality sound</p>
@@ -129,7 +119,7 @@ export function ImageCarousel() {
               />
               <div className="p-4 sm:p-6">
                 <div className="flex items-center justify-between mb-2">
-                  <p className="text-lg font-bold text-gray-900 dark:text-gray-50">Classic Wristwatch</p>
+                  <p className="text-sm md:text-lg font-bold text-gray-900 dark:text-gray-50">Classic Wristwatch</p>
                   <p className="text-lg font-bold text-primary">$59.99</p>
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Timeless design</p>
