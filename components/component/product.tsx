@@ -142,5 +142,6 @@ export function Product() {
         </div>
       </div>
     </section>
+
   )
 }
